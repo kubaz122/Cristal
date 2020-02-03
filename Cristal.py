@@ -10,7 +10,6 @@ class Main(QMainWindow):
         self.ui.setupUi(self)
 
         self.ui.pushButton.clicked.connect(self.helloWorld)
-        print("Program loaded ...")
 
     def helloWorld(self):
         self.dialog = HelloWorld()
